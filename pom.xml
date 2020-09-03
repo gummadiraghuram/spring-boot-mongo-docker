@@ -83,8 +83,9 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-<distributionManagement>
+	</dependencies>
+	
+	<distributionManagement>
  <repository>
 	      <id>nexus</id>
 	      <name>CSR Releases Nexus Repository</name>
@@ -97,8 +98,7 @@
 	      <url>http://35.154.48.169:8081/repository/csr-snapshot/</url>
 	    </snapshotRepository>
 <distributionManagement>
-<dependency>
-	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>

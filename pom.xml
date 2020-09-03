@@ -85,7 +85,7 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
+<distributionManagement>
  <repository>
 	      <id>nexus</id>
 	      <name>CSR Releases Nexus Repository</name>
@@ -97,7 +97,7 @@
 	      <name>CSR Snapshot Nexus Repository </name>
 	      <url>http://35.154.48.169:8081/repository/csr-snapshot/</url>
 	    </snapshotRepository>
-<distributionManagement>
+</distributionManagement>
 	
 	<build>
 		<plugins>

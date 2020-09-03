@@ -38,7 +38,10 @@
 			</dependency>
 		</dependencies>
 		
-		 <repository>
+	</dependencyManagement>
+	
+	<distributionManagement>
+ <repository>
 	      <id>nexus</id>
 	      <name>CSR Releases Nexus Repository</name>
 	      <url>http://35.154.48.169:8081/repository/csrportal-release/</url>
@@ -49,8 +52,7 @@
 	      <name>CSR Snapshot Nexus Repository </name>
 	      <url>http://35.154.48.169:8081/repository/csr-snapshot/</url>
 	    </snapshotRepository>
-		
-	</dependencyManagement>
+<distributionManagement>
 
 	<dependencies>
 		<dependency>

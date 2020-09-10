@@ -92,13 +92,13 @@
  <repository>
 	      <id>nexus</id>
 	      <name>CSR Releases Nexus Repository</name>
-	      <url>http://13.233.17.196:8081/repository/csrportal-release/</url>
+	      <url>http://13.232.23.202:8081/repository/csrportal-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>CSR Snapshot Nexus Repository </name>
-	      <url>http://13.233.17.196:8081/repository/csr-snapshot/</url>
+	      <url>http://13.232.23.202:8081/repository/csr-snapshot/</url>
 	    </snapshotRepository>
 </distributionManagement>
 	
